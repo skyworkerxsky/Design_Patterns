@@ -67,3 +67,15 @@ class PanoramicSunroof: PorscheDecorator {
     }
 
 }
+
+var porscheBoxter: Porsche = Boxter()
+porscheBoxter.getDescription()
+porscheBoxter.getPrice()
+
+porscheBoxter = PremiumAudioSystem(dp: porscheBoxter)
+porscheBoxter.getDescription()
+porscheBoxter.getPrice()
+
+porscheBoxter = PanoramicSunroof(dp: porscheBoxter)
+porscheBoxter.getDescription()
+porscheBoxter.getPrice()
